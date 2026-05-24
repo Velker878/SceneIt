@@ -77,15 +77,27 @@ const SELECTORS = {
   filmDiv: "div[data-item-slug]",
 
   /**
-   * Profile page: the avatar image lives inside a div.profile-avatar
+   * Profile page avatar.
+   * Actual HTML:
+   *   <div class="profile-avatar">
+   *     <span class="avatar -a110 -large"><img src="..." /></span>
+   *   </div>
+   * Target the first img inside span.avatar to get the normal-size avatar,
+   * not the hidden 500px version that follows it.
    */
   profileAvatarDiv: "div.profile-avatar",
-  profileAvatarImg: "img",
+  profileAvatarImg: "span.avatar img",
 
   /**
-   * Display name on profile page
+   * Display name on profile page.
+   * Actual HTML:
+   *   <h1 class="person-display-name js-display-name">
+   *     <span class="displayname tooltip">
+   *       <span class="label">Velker</span>
+   *     </span>
+   *   </h1>
    */
-  displayName: "h1.title-1",
+  displayName: "h1.person-display-name span.label",
 } as const;
 
 const BASE_URL = "https://letterboxd.com";
@@ -338,7 +350,7 @@ export class LetterboxdService {
       const $ = cheerio.load(response.data);
 
       // ── Avatar ──────────────────────────────────────────────────────────
-      // <div class="profile-avatar"><img src="https://..."/></div>
+      // <div class="profile-avatar"><span class="avatar -a110 -large"><img src="..."/></span></div>
       const avatarImg = $(SELECTORS.profileAvatarDiv)
         .find(SELECTORS.profileAvatarImg)
         .first();
