@@ -11,9 +11,9 @@ Choosing a movie with friends usually means scrolling through multiple watchlist
 
 ## Demo Images
 
-<img width="2880" height="1800" alt="Screenshot 2026-07-07 173911" src="https://github.com/user-attachments/assets/efbd3066-057d-4b21-beec-55d332909c52" />
-<img width="2880" height="1800" alt="Screenshot 2026-07-07 174028" src="https://github.com/user-attachments/assets/cfb765d7-4e9c-4dc0-8fc3-3787241019a2" />
-<img width="2880" height="1800" alt="Screenshot 2026-07-07 174059" src="https://github.com/user-attachments/assets/d5bd8f42-3712-4b9f-9aa8-32cfc258ac13" />
+<img width="2459" height="1459" alt="Screenshot 2026-07-07 173911" src="https://github.com/user-attachments/assets/3b36cdb9-1665-4d40-bc5a-d3042071aec1" />
+<img width="2463" height="1463" alt="Screenshot 2026-07-07 174028" src="https://github.com/user-attachments/assets/c424a827-2fc1-4eab-97eb-79346b553c63" />
+<img width="2466" height="1464" alt="Screenshot 2026-07-07 174059" src="https://github.com/user-attachments/assets/5dd23cf4-9478-4cad-8e96-8c8de443344f" />
 
 ## Features
 
