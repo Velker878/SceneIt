@@ -2,10 +2,6 @@
 
 SceneIt is a full-stack web application that helps friend groups decide what movie to watch by comparing their public Letterboxd watchlists in real time.
 
-## Why I Built It
-
-Choosing a movie with friends usually means scrolling through multiple watchlists and trying to find something everyone is interested in. SceneIt was built to simplify that process by turning shared watchlists into a single recommendation that's quick, personalized, and easy to understand.
-
 Users enter multiple Letterboxd usernames, and SceneIt finds every film shared across their watchlists. A custom recommendation algorithm evaluates each movie using factors such as ratings, popularity, genre similarity, and runtime to recommend the best option for the group. An AI-generated summary explains the recommendation based on the group's combined tastes.
 
 
